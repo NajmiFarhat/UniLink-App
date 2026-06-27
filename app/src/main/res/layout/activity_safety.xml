@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FDF2F0"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@android:drawable/ic_menu_mylocation"
+        app:tint="#D84315" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Location: Unknown"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="#D84315"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnSendAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Get Current Location"
+        android:backgroundTint="#D84315"/>
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="View on Map"
+        android:backgroundTint="#4CAF50"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnCallSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Call Campus Security"
+        android:backgroundTint="#000000"/>
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to Home"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#424242"/>
+
+
+</LinearLayout>
